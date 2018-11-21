@@ -1,4 +1,18 @@
-
+/*
+*@author Leandro Coutinho
+*version 0.1
+*/
+/* ========================= Layout =========================== */
+html,body, .capa{
+	height: 100%;
+}
+body{
+	background: url('imagens/capa.png'),
+				url('imagens/ruido.png'),
+				linear-gradient(50deg, #ff4169,#7c26f8);
+    font-family: Helvetica,Arial,sans-serif;
+}
+/* -- Barra de navegação -- */
 .img-logo{
 	display: block;
 	height: 40px;
@@ -7,29 +21,71 @@
 	background-size: contain;
 	color: transparent;
 }
-
 nav.navbar-transparent{
 	padding: 15px 0px;
 	background: rgba(0, 0, 0, 0.6);
 	border: none;
 }
-
 .navbar-brand{
 	padding: 5px 15px;
 }
-
 .separetor{
 	width: 1px;
 	height: 16px;
 	background: white;
 	margin: 16px 10px;
-
 }
-
 .navbar-inverse .navbar-nav > li > a{
 	color: white;
 }
-
 .navbar-inverse .navbar-nav > li > a:hover{
 	color: #9bf0e1;
+}
+/* -- Imagem de capa -- */
+.capa{
+	display: table;
+	width: 100%;
+
+}
+.texto-capa{
+	text-align: center;
+	color: #FFF;
+	display: table-cell;
+	vertical-align: middle;
+}
+/* -- Imagem de capa -- */
+.btn-custom{
+	color: #FFF;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	padding: 10px 35px;
+	text-transform: uppercase;
+	margin: 0 15px;
+	transition: background 0.4s, color 0.4s;
+}
+.btn-roxo{
+	background-color: #7c26f8;
+}
+.btn-roxo:hover{
+	background-color: #6207e3;
+	color:#FFF;
+
+}
+.btn-branco{
+	background: none; 
+	border: 2px solid #FFF;
+}
+.btn-branco:hover{
+	background-color: #FFF;
+	color: #000;
+}
+
+
+/* ==================== Tipografia ==================== */
+h1{
+	font-size: 100px;
+	font-weight: 900;
+	letter-spacing: -0.06em;
+	margin-bottom: 50px;
 }
