@@ -14,6 +14,11 @@ body{
     background-attachment: fixed;
     overflow-x: hidden;
 }
+footer{
+	background-color: #000;
+	position: relative;
+	padding: 50px 0 20px 0;
+}
 /* -- Barra de navegação -- */
 .img-logo{
 	display: block;
@@ -37,11 +42,12 @@ nav.navbar-transparent{
 	background: white;
 	margin: 16px 10px;
 }
-.navbar-inverse .navbar-nav > li > a{
+.navbar-inverse .navbar-nav > li > a, footer .nav a{
 	color: white;
 }
-.navbar-inverse .navbar-nav > li > a:hover{
+.navbar-inverse .navbar-nav > li > a:hover, footer .nav a:hover{
 	color: #9bf0e1;
+	background: none;
 }
 /* -- Imagem de capa -- */
 .capa{
@@ -110,6 +116,10 @@ nav.navbar-transparent{
 	transform: rotate(30deg);
 	padding-left: 80px;
 }
+/* -- Rodape -- */
+.icon-social{
+	float: right;
+}
 
 /* ==================== Tipografia ==================== */
 h1{
@@ -131,4 +141,10 @@ h3{
 	font-weight: 700;
 	letter-spacing: -0.04em;
 	margin-bottom: 30px;
+}
+
+#rodape h4{
+	color: #919496;
+	font-size: 12px;
+	text-transform: uppercase;
 }
