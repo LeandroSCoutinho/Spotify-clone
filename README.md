@@ -14,7 +14,7 @@ Projeto criado para estudo de fixação do Framework Bootstrap 3, onde o objetiv
 1 - Clone ou baixe o repositório
 
 ```bash
-git clone https://github.com/LeandroSCoutinho/Spotify-clone/
+git clone https://github.com/LeandroSCoutinho/Spotify-clone.git
 ```
 2 - Abra o arquivo index.html no seu navegador
 
